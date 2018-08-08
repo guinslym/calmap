@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-install_requires = ['matplotlib', 'numpy', 'pandas']
+install_requires = ['matplotlib==1.5.3', 'numpy', 'pandas']
 
 try:
     with open('README.rst') as readme:
